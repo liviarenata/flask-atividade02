@@ -5,7 +5,7 @@ app = Flask('app')
 def ola_mundo():
   return '<h1>Olá Mundo!</h1>'
 
-@app.route('/unifran/')
+@app.route('/unifran')
 def unifran():
   return '<h2>Universidade de Franca</h2>'
   
